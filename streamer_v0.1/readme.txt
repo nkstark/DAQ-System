@@ -3,7 +3,7 @@ This application is based on Cypress's official open source  C# application Stre
 
 Instruction manual:
 1.This application supports currently only Windows operating system.
- For the first time using the DAQ system, you need to install the driver files ¡°CYUSB.dll¡± at X:\...\streamer_v0.1\driver . 
+ For the first time using the DAQ system, you need to install the driver files "CYUSB.dll"  at X:\...\streamer_v0.1\driver . 
 
 2. The pre-compiled executable file"Streamer.exe" is under X:\...\streamer_v0.1\bin\Release. 
 If you want to recompile this project you need to use Visual studio 2017.
