@@ -1,0 +1,6 @@
+C:\Users\mady\Desktop\application\c_sharp\streamer\bin\x64\Release\Streamer.exe
+C:\Users\mady\Desktop\application\c_sharp\streamer\bin\x64\Release\CyUSB.dll
+C:\Users\mady\Desktop\application\c_sharp\streamer\obj\x64\Release\Streamer.Form1.resources
+C:\Users\mady\Desktop\application\c_sharp\streamer\obj\x64\Release\Streamer.csproj.GenerateResource.Cache
+C:\Users\mady\Desktop\application\c_sharp\streamer\obj\x64\Release\Streamer.exe
+C:\Users\mady\Desktop\application\c_sharp\streamer\obj\x64\Release\Streamer.csprojResolveAssemblyReference.cache

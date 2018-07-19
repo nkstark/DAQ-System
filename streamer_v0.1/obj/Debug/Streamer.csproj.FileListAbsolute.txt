@@ -1,0 +1,25 @@
+C:\Users\mady\Desktop\application\c_sharp\streamer\bin\Debug\Streamer.exe
+C:\Users\mady\Desktop\application\c_sharp\streamer\bin\Debug\Streamer.pdb
+C:\Users\mady\Desktop\application\c_sharp\streamer\bin\Debug\CyUSB.dll
+C:\Users\mady\Desktop\application\c_sharp\streamer\obj\Debug\Streamer.csprojResolveAssemblyReference.cache
+C:\Users\mady\Desktop\application\c_sharp\streamer\obj\Debug\Streamer.Form1.resources
+C:\Users\mady\Desktop\application\c_sharp\streamer\obj\Debug\Streamer.csproj.GenerateResource.Cache
+C:\Users\mady\Desktop\application\c_sharp\streamer\obj\Debug\Streamer.exe
+C:\Users\mady\Desktop\application\c_sharp\streamer\obj\Debug\Streamer.pdb
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\bin\Debug\Streamer.exe
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\bin\Debug\Streamer.pdb
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\bin\Debug\CyUSB.dll
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\obj\Debug\Streamer.Form1.resources
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\obj\Debug\Streamer.csproj.GenerateResource.Cache
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\obj\Debug\Streamer.exe
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\obj\Debug\Streamer.pdb
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\obj\Debug\Streamer.csprojResolveAssemblyReference.cache
+C:\Users\nks\Desktop\streamer - 副本\bin\Debug\Streamer.exe
+C:\Users\nks\Desktop\streamer - 副本\bin\Debug\Streamer.pdb
+C:\Users\nks\Desktop\streamer - 副本\obj\Debug\Streamer.csprojResolveAssemblyReference.cache
+C:\Users\nks\Desktop\streamer - 副本\obj\Debug\Streamer.Form1.resources
+C:\Users\nks\Desktop\streamer - 副本\obj\Debug\Streamer.csproj.GenerateResource.cache
+C:\Users\nks\Desktop\streamer - 副本\obj\Debug\Streamer.csproj.CoreCompileInputs.cache
+C:\Users\nks\Desktop\streamer - 副本\obj\Debug\Streamer.csproj.CopyComplete
+C:\Users\nks\Desktop\streamer - 副本\obj\Debug\Streamer.exe
+C:\Users\nks\Desktop\streamer - 副本\obj\Debug\Streamer.pdb

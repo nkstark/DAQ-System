@@ -1,0 +1,27 @@
+C:\Users\mady\Desktop\application\c_sharp\streamer\bin\Release\Streamer.exe
+C:\Users\mady\Desktop\application\c_sharp\streamer\bin\Release\CyUSB.dll
+C:\Users\mady\Desktop\application\c_sharp\streamer\obj\Release\Streamer.Form1.resources
+C:\Users\mady\Desktop\application\c_sharp\streamer\obj\Release\Streamer.csproj.GenerateResource.Cache
+C:\Users\mady\Desktop\application\c_sharp\streamer\obj\Release\Streamer.exe
+C:\Users\mady\Desktop\application\c_sharp\streamer\obj\Release\Streamer.csprojResolveAssemblyReference.cache
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\obj\Release\Streamer.exe
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\bin\Release\Streamer.exe
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\bin\Release\CyUSB.dll
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\obj\Release\Streamer.csprojResolveAssemblyReference.cache
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\obj\Release\Streamer.Form1.resources
+C:\Users\mady\Desktop\slUSBVideoClassJWRL\streamer\obj\Release\Streamer.csproj.GenerateResource.Cache
+C:\Users\home\Desktop\streamer\bin\Release\Streamer.exe
+C:\Users\home\Desktop\streamer\bin\Release\CyUSB.dll
+C:\Users\home\Desktop\streamer\obj\Release\Streamer.csprojAssemblyReference.cache
+C:\Users\home\Desktop\streamer\obj\Release\Streamer.Form1.resources
+C:\Users\home\Desktop\streamer\obj\Release\Streamer.csproj.GenerateResource.cache
+C:\Users\home\Desktop\streamer\obj\Release\Streamer.csproj.CoreCompileInputs.cache
+C:\Users\home\Desktop\streamer\obj\Release\Streamer.csproj.CopyComplete
+C:\Users\home\Desktop\streamer\obj\Release\Streamer.exe
+C:\Users\nks\Desktop\streamer - 副本\bin\Release\Streamer.exe
+C:\Users\nks\Desktop\streamer - 副本\obj\Release\Streamer.Form1.resources
+C:\Users\nks\Desktop\streamer - 副本\obj\Release\Streamer.csproj.GenerateResource.cache
+C:\Users\nks\Desktop\streamer - 副本\obj\Release\Streamer.csproj.CoreCompileInputs.cache
+C:\Users\nks\Desktop\streamer - 副本\obj\Release\Streamer.csproj.CopyComplete
+C:\Users\nks\Desktop\streamer - 副本\obj\Release\Streamer.exe
+C:\Users\nks\Desktop\streamer - 副本\obj\Release\Streamer.csprojResolveAssemblyReference.cache
