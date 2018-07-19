@@ -1,0 +1,108 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
+| Date         : Thu Jul 19 06:15:51 2018
+| Host         : ubuntu running 64-bit Ubuntu 16.04.4 LTS
+| Command      : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
+| Design       : design_1_wrapper
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    38 |
+| Unused register locations in slices containing registers |    95 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      2 |            1 |
+|      8 |            8 |
+|     11 |            2 |
+|     13 |            8 |
+|     14 |            8 |
+|    16+ |            9 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             130 |           44 |
+| No           | No                    | Yes                    |              72 |           19 |
+| No           | Yes                   | No                     |              86 |           27 |
+| Yes          | No                    | No                     |             140 |           33 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             197 |           42 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------+----------------+
+|            Clock Signal            |                                                            Enable Signal                                                           |                                       Set/Reset Signal                                       | Slice Load Count | Bel Load Count |
++------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------+----------------+
+| ~design_1_i/clk_wiz_0/inst/clk_50  |                                                                                                                                    |                                                                                              |                1 |              1 |
+|  design_1_i/clk_wiz_0/inst/clk_100 |                                                                                                                                    | design_1_i/sys_ctrl_0/inst/sys_rst_n_i_1_n_0                                                 |                1 |              1 |
+|  sys_clk_i_IBUF                    |                                                                                                                                    | design_1_i/sys_ctrl_0/inst/rst_r2_i_1_n_0                                                    |                1 |              2 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  |                                                                                                                                    | design_1_i/SPI_ADC_0/inst/RESET_DATA                                                         |                2 |              8 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  |                                                                                                                                    | design_1_i/SPI_ADC_1/inst/RESET_DATA                                                         |                3 |              8 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  |                                                                                                                                    | design_1_i/SPI_ADC_2/inst/RESET_DATA                                                         |                2 |              8 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  |                                                                                                                                    | design_1_i/SPI_ADC_3/inst/RESET_DATA                                                         |                3 |              8 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  |                                                                                                                                    | design_1_i/SPI_ADC_4/inst/RESET_DATA                                                         |                2 |              8 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  |                                                                                                                                    | design_1_i/SPI_ADC_7/inst/RESET_DATA                                                         |                2 |              8 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  |                                                                                                                                    | design_1_i/SPI_ADC_6/inst/RESET_DATA                                                         |                2 |              8 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  |                                                                                                                                    | design_1_i/SPI_ADC_5/inst/RESET_DATA                                                         |                3 |              8 |
+|  design_1_i/clk_wiz_0/inst/clk_100 |                                                                                                                                    | design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0]                |                3 |             11 |
+|  design_1_i/clk_wiz_0/inst/clk_50  |                                                                                                                                    | design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/syncstages_ff_reg[0] |                5 |             11 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_5/inst/data_cnt1                                                                                                | design_1_i/SPI_ADC_5/inst/RESET_DATA                                                         |                2 |             13 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_6/inst/data_cnt1                                                                                                | design_1_i/SPI_ADC_6/inst/RESET_DATA                                                         |                2 |             13 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_4/inst/data_cnt1                                                                                                | design_1_i/SPI_ADC_4/inst/RESET_DATA                                                         |                2 |             13 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_7/inst/data_cnt1                                                                                                | design_1_i/SPI_ADC_7/inst/RESET_DATA                                                         |                2 |             13 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_3/inst/data_cnt1                                                                                                | design_1_i/SPI_ADC_3/inst/RESET_DATA                                                         |                2 |             13 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_2/inst/data_cnt1                                                                                                | design_1_i/SPI_ADC_2/inst/RESET_DATA                                                         |                3 |             13 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_1/inst/data_cnt1                                                                                                | design_1_i/SPI_ADC_1/inst/RESET_DATA                                                         |                2 |             13 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_0/inst/data_cnt1                                                                                                | design_1_i/SPI_ADC_0/inst/RESET_DATA                                                         |                3 |             13 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_0/inst/data_out[13]_i_1_n_0                                                                                     |                                                                                              |                2 |             14 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_4/inst/data_out[13]_i_1_n_0                                                                                     |                                                                                              |                4 |             14 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_3/inst/data_out[13]_i_1_n_0                                                                                     |                                                                                              |                2 |             14 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_2/inst/data_out[13]_i_1_n_0                                                                                     |                                                                                              |                3 |             14 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_1/inst/data_out[13]_i_1_n_0                                                                                     |                                                                                              |                2 |             14 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_5/inst/data_out[13]_i_1_n_0                                                                                     |                                                                                              |                4 |             14 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_6/inst/data_out[13]_i_1_n_0                                                                                     |                                                                                              |                2 |             14 |
+| ~design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/SPI_ADC_7/inst/data_out[13]_i_1_n_0                                                                                     |                                                                                              |                3 |             14 |
+|  design_1_i/clk_wiz_0/inst/clk_100 | design_1_i/fifo_read_controller_0/inst/read_cnt[15]_i_2_n_0                                                                        | design_1_i/fifo_read_controller_0/inst/read_cnt[15]_i_1_n_0                                  |                4 |             16 |
+|  design_1_i/clk_wiz_0/inst/clk_100 | design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/gc0.count_d1_reg[8][0] | design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0]                |                4 |             18 |
+|  design_1_i/clk_wiz_0/inst/clk_25  |                                                                                                                                    | design_1_i/led_controller_0/inst/cnt[23]_i_2_n_0                                             |                6 |             24 |
+|  design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/E[0]                           | design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/syncstages_ff_reg[0] |                8 |             27 |
+|  design_1_i/clk_wiz_0/inst/clk_50  | design_1_i/FIFO_RD_Mux_0/inst/ADC_MIX_DATA[31]_i_1_n_0                                                                             |                                                                                              |               11 |             28 |
+|  design_1_i/clk_wiz_0/inst/clk_100 | design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/E[0]                   | design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0]                |                8 |             32 |
+|  design_1_i/clk_wiz_0/inst/clk_50  |                                                                                                                                    | design_1_i/util_vector_logic_0/Res[0]                                                        |               11 |             45 |
+|  design_1_i/clk_wiz_0/inst/clk_100 |                                                                                                                                    |                                                                                              |               20 |             60 |
+|  design_1_i/clk_wiz_0/inst/clk_50  |                                                                                                                                    |                                                                                              |               25 |             72 |
++------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------+----------------+
+
+

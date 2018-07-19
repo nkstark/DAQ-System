@@ -1,0 +1,292 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jul 19 05:39:16 2018
+# Process ID: 93189
+# Current directory: /home/nks/Desktop/at7_ex16_bd/project_AT7_BLOCK_design/project_AT7_BLOCK_design.runs/design_1_FIFO_RD_Mux_0_1_synth_1
+# Command line: vivado -log design_1_FIFO_RD_Mux_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_FIFO_RD_Mux_0_1.tcl
+# Log file: /home/nks/Desktop/at7_ex16_bd/project_AT7_BLOCK_design/project_AT7_BLOCK_design.runs/design_1_FIFO_RD_Mux_0_1_synth_1/design_1_FIFO_RD_Mux_0_1.vds
+# Journal file: /home/nks/Desktop/at7_ex16_bd/project_AT7_BLOCK_design/project_AT7_BLOCK_design.runs/design_1_FIFO_RD_Mux_0_1_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_FIFO_RD_Mux_0_1.tcl -notrace
+Command: synth_design -top design_1_FIFO_RD_Mux_0_1 -part xc7a35tftg256-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 93473 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1309.191 ; gain = 63.988 ; free physical = 660 ; free virtual = 11641
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_FIFO_RD_Mux_0_1' [/home/nks/Desktop/at7_ex16_bd/project_AT7_BLOCK_design/project_AT7_BLOCK_design.srcs/sources_1/bd/design_1/ip/design_1_FIFO_RD_Mux_0_1/synth/design_1_FIFO_RD_Mux_0_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'FIFO_RD_Mux' [/home/nks/Desktop/at7_ex16_bd/project_AT7_BLOCK_design/project_AT7_BLOCK_design.srcs/sources_1/new/FIFO_RD_Mux.v:16]
+	Parameter FIFO_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter ADC_BOARD_POSITION bound to: 1 - type: integer 
+WARNING: [Synth 8-5788] Register Fifo_RD_reg in module FIFO_RD_Mux is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/nks/Desktop/at7_ex16_bd/project_AT7_BLOCK_design/project_AT7_BLOCK_design.srcs/sources_1/new/FIFO_RD_Mux.v:62]
+WARNING: [Synth 8-5788] Register ADC_MIX_DATA_reg in module FIFO_RD_Mux is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/nks/Desktop/at7_ex16_bd/project_AT7_BLOCK_design/project_AT7_BLOCK_design.srcs/sources_1/new/FIFO_RD_Mux.v:65]
+WARNING: [Synth 8-5788] Register FIFO_WR_FINISHED_reg in module FIFO_RD_Mux is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/nks/Desktop/at7_ex16_bd/project_AT7_BLOCK_design/project_AT7_BLOCK_design.srcs/sources_1/new/FIFO_RD_Mux.v:80]
+INFO: [Synth 8-6155] done synthesizing module 'FIFO_RD_Mux' (1#1) [/home/nks/Desktop/at7_ex16_bd/project_AT7_BLOCK_design/project_AT7_BLOCK_design.srcs/sources_1/new/FIFO_RD_Mux.v:16]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_FIFO_RD_Mux_0_1' (2#1) [/home/nks/Desktop/at7_ex16_bd/project_AT7_BLOCK_design/project_AT7_BLOCK_design.srcs/sources_1/bd/design_1/ip/design_1_FIFO_RD_Mux_0_1/synth/design_1_FIFO_RD_Mux_0_1.v:57]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1353.801 ; gain = 108.598 ; free physical = 447 ; free virtual = 11428
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1353.801 ; gain = 108.598 ; free physical = 436 ; free virtual = 11417
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1353.801 ; gain = 108.598 ; free physical = 437 ; free virtual = 11418
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tftg256-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1660.176 ; gain = 0.000 ; free physical = 121 ; free virtual = 10334
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:50 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 265 ; free virtual = 10478
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tftg256-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:50 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 264 ; free virtual = 10477
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:50 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 265 ; free virtual = 10479
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "FIFO_WR_FINISHED0" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:51 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 238 ; free virtual = 10451
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module FIFO_RD_Mux 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "inst/FIFO_WR_FINISHED0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3886] merging instance 'inst/CNT_reg[7]' (FDC) to 'inst/CNT_reg[5]'
+INFO: [Synth 8-3886] merging instance 'inst/CNT_reg[6]' (FDC) to 'inst/CNT_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/CNT_reg[5] )
+INFO: [Synth 8-3332] Sequential element (inst/CNT_reg[5]) is unused and will be removed from module design_1_FIFO_RD_Mux_0_1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:51 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 258 ; free virtual = 10479
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:01:04 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 143 ; free virtual = 9803
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:01:04 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 140 ; free virtual = 9800
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:01:05 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 129 ; free virtual = 9727
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:01:06 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 199 ; free virtual = 9797
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:01:06 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 199 ; free virtual = 9797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:01:06 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 200 ; free virtual = 9798
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:01:06 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 212 ; free virtual = 9811
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:01:06 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 232 ; free virtual = 9830
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:01:06 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 250 ; free virtual = 9849
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     2|
+|2     |LUT3 |     1|
+|3     |LUT5 |    33|
+|4     |LUT6 |    39|
+|5     |FDCE |     5|
+|6     |FDRE |    35|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+------------+------+
+|      |Instance |Module      |Cells |
++------+---------+------------+------+
+|1     |top      |            |   115|
+|2     |  inst   |FIFO_RD_Mux |   115|
++------+---------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:01:06 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 255 ; free virtual = 9854
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:44 . Memory (MB): peak = 1660.176 ; gain = 108.598 ; free physical = 408 ; free virtual = 10012
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:01:06 . Memory (MB): peak = 1660.176 ; gain = 414.973 ; free physical = 408 ; free virtual = 10012
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+19 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:01:07 . Memory (MB): peak = 1660.176 ; gain = 474.449 ; free physical = 398 ; free virtual = 10003
+INFO: [Common 17-1381] The checkpoint '/home/nks/Desktop/at7_ex16_bd/project_AT7_BLOCK_design/project_AT7_BLOCK_design.runs/design_1_FIFO_RD_Mux_0_1_synth_1/design_1_FIFO_RD_Mux_0_1.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/nks/Desktop/at7_ex16_bd/project_AT7_BLOCK_design/project_AT7_BLOCK_design.runs/design_1_FIFO_RD_Mux_0_1_synth_1/design_1_FIFO_RD_Mux_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_FIFO_RD_Mux_0_1_utilization_synth.rpt -pb design_1_FIFO_RD_Mux_0_1_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1660.176 ; gain = 0.000 ; free physical = 1449 ; free virtual = 11054
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 19 05:40:36 2018...
